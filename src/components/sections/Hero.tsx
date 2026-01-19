@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Mail, FileText, Github, Linkedin } from "lucide-react";
+import { Mail, FileText, Github, Linkedin, Download } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 export const Hero = () => {
@@ -57,9 +57,15 @@ export const Hero = () => {
                 </a>
               </Button>
               <Button variant="outline" asChild>
+                <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+                  <Download className="w-4 h-4 mr-2" />
+                  Resume / CV
+                </a>
+              </Button>
+              <Button variant="ghost" asChild>
                 <a href="#publications">
                   <FileText className="w-4 h-4 mr-2" />
-                  View Publications
+                  Publications
                 </a>
               </Button>
             </div>
