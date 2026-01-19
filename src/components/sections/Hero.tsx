@@ -1,0 +1,91 @@
+import { motion } from "framer-motion";
+import { Mail, FileText, Github, Linkedin } from "lucide-react";
+import { Button } from "@/components/ui/button";
+
+export const Hero = () => {
+  return (
+    <section id="about" className="min-h-screen flex items-center pt-20 section-padding">
+      <div className="container mx-auto px-6">
+        <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
+          {/* Profile Image */}
+          <motion.div
+            initial={{ opacity: 0, scale: 0.95 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.6 }}
+            className="order-2 lg:order-1 flex justify-center lg:justify-start"
+          >
+            <div className="relative">
+              <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-accent/20 shadow-card">
+                <img
+                  src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face"
+                  alt="Profile photo"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-accent/10 rounded-full blur-2xl" />
+            </div>
+          </motion.div>
+
+          {/* Content */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 0.2 }}
+            className="order-1 lg:order-2 text-center lg:text-left"
+          >
+            <p className="text-accent font-medium mb-3 tracking-wide uppercase text-sm">
+              PhD Candidate
+            </p>
+            <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl font-semibold text-foreground mb-6 leading-tight">
+              Your Name
+            </h1>
+            <p className="text-lg md:text-xl text-muted-foreground mb-4 leading-relaxed">
+              Department of Computer Science
+            </p>
+            <p className="text-muted-foreground mb-8 leading-relaxed max-w-xl mx-auto lg:mx-0">
+              I'm a PhD student researching machine learning and natural language processing. 
+              My work focuses on developing interpretable AI systems that can understand and 
+              generate human language with greater accuracy and transparency.
+            </p>
+
+            {/* CTA Buttons */}
+            <div className="flex flex-wrap gap-4 justify-center lg:justify-start mb-8">
+              <Button asChild>
+                <a href="#contact">
+                  <Mail className="w-4 h-4 mr-2" />
+                  Contact Me
+                </a>
+              </Button>
+              <Button variant="outline" asChild>
+                <a href="#publications">
+                  <FileText className="w-4 h-4 mr-2" />
+                  View Publications
+                </a>
+              </Button>
+            </div>
+
+            {/* Social Links */}
+            <div className="flex gap-4 justify-center lg:justify-start">
+              <a
+                href="https://github.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-muted-foreground hover:text-foreground transition-colors"
+              >
+                <Github className="w-5 h-5" />
+              </a>
+              <a
+                href="https://linkedin.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-muted-foreground hover:text-foreground transition-colors"
+              >
+                <Linkedin className="w-5 h-5" />
+              </a>
+            </div>
+          </motion.div>
+        </div>
+      </div>
+    </section>
+  );
+};
