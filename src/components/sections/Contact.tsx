@@ -17,10 +17,7 @@ export const Contact = () => {
           <h2 className="font-serif text-3xl md:text-4xl font-semibold text-foreground mb-4">
             Get in Touch
           </h2>
-          <p className="text-muted-foreground max-w-2xl mx-auto">
-            I'm always open to discussing research opportunities, collaborations, or just 
-            having a conversation about AI and machine learning.
-          </p>
+          <p className="text-muted-foreground max-w-2xl mx-auto">I'm always open to discussing research opportunities, collaborations, or just having a conversation about stochastic learning and RL.</p>
         </motion.div>
 
         <motion.div initial={{
