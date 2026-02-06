@@ -38,7 +38,7 @@ export const Hero = () => {
               PhD Candidate
             </p>
             <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl font-semibold text-foreground mb-6 leading-tight">Manali Dutta</h1>
-            <p className="text-lg md:text-xl text-muted-foreground mb-4 leading-relaxed mx-0 font-semibold">Department of Computer Science and Automation    Indian Institute of Science Bangalore</p>
+            <p className="text-lg md:text-xl text-muted-foreground mb-4 leading-relaxed mx-0 font-semibold">Department of Computer Science and Automation      Indian Institute of Science Bangalore</p>
             <p className="text-muted-foreground mb-8 leading-relaxed max-w-xl mx-auto lg:mx-0">I'm a PhD student working in the broad areas of stochastic control, networked control systems, and reinforcement learning. My research focuses on designing optimal scheduling policies for  resource constrained and networked systems. I am advised by <a href="https://www.csa.iisc.ac.in/~shalabh/" target="_blank" rel="noopener noreferrer" className="text-accent hover:underline">Prof. Shalabh Bhatnagar</a>, and my work combines theoretical analysis with algorithmic design, motivated by problems arising in communication networks and control systems.</p>
 
             {/* CTA Buttons */}
