@@ -57,7 +57,7 @@ export const Hero = () => {
                 </a>
               </Button>
               <Button variant="outline" asChild>
-                <a href={`${import.meta.env.BASE_URL}resume.pdf`} target="_blank" rel="noopener noreferrer">
+                <a href="https://m-pixel-star.github.io/Resume/resume.pdf" target="_blank" rel="noopener noreferrer">
                   <Download className="w-4 h-4 mr-2" />
                   Resume / CV
                 </a>
