@@ -40,11 +40,8 @@ export const Hero = () => {
             <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl font-semibold text-foreground mb-6 leading-tight">Manali Dutta</h1>
             <p className="text-lg md:text-xl text-muted-foreground mb-4 leading-relaxed">Department of Computer Science and Automation
 Indian Institute of Science Bangalore</p>
-            <p className="text-muted-foreground mb-8 leading-relaxed max-w-xl mx-auto lg:mx-0">
-              I'm a PhD student researching machine learning and natural language processing. 
-              My work focuses on developing interpretable AI systems that can understand and 
-              generate human language with greater accuracy and transparency.
-            </p>
+            <p className="text-muted-foreground mb-8 leading-relaxed max-w-xl mx-auto lg:mx-0">I'm a PhD student working in the broad areas of stochastic control, networked control systems, and reinforcement learning. My research focuses on designing optimal scheduling policies for  resource constrained and networked systems.
+I am advised by Prof. Shalabh Bhatnagar, and my work combines theoretical analysis with algorithmic design, motivated by problems arising in communication networks and control systems.</p>
 
             {/* CTA Buttons */}
             <div className="flex flex-wrap gap-4 justify-center lg:justify-start mb-8">
