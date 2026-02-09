@@ -18,7 +18,7 @@ const education = [
     degree: "B.Sc. in Computer Science",
     institution: "Kalinga Institute of Industrial Technology, Bhubaneswar",
     period: "2015 – 2019",
-    description: "First class honors. Specialized in artificial intelligence and data science.",
+    description: "Thesis on implementation of cascade control for a level process.",
   },
 ];
 
