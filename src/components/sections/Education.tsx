@@ -4,7 +4,7 @@ import { GraduationCap } from "lucide-react";
 const education = [
   {
     degree: "Ph.D. in Computer Science and Automation",
-    institution: "Indian Institute of Science",
+    institution: "Indian Institute of Science Bangalore",
     period: "2021 – Present",
     description: "Researching machine learning and NLP under the supervision of Prof. Advisor Name. Focus on interpretable AI systems.",
   },
