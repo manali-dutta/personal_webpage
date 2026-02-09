@@ -6,7 +6,7 @@ const education = [
     degree: "Ph.D. in Computer Science and Automation",
     institution: "Indian Institute of Science Bangalore",
     period: "2021 – Present",
-    description: "Researching machine learning and NLP under the supervision of Prof. Advisor Name. Focus on interpretable AI systems.",
+    description: "Working in the broad areas of stochastic control, networked control systems, and reinforcement learning under the supervision of Prof. Shalabh Bhatnagar.",
   },
   {
     degree: "M.Sc. in Computer Science",
