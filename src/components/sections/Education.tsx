@@ -16,7 +16,7 @@ const education = [
   },
   {
     degree: "B.Sc. in Computer Science",
-    institution: "University Name",
+    institution: "Kalinga Institute of Industrial Technology, Bhubaneswar",
     period: "2015 – 2019",
     description: "First class honors. Specialized in artificial intelligence and data science.",
   },
