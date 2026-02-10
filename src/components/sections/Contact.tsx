@@ -50,7 +50,7 @@ export const Contact = () => {
                 </div>
                 <div>
                   <p className="text-sm text-muted-foreground mb-1">Office</p>
-                  <p className="text-foreground font-medium">Room No. 302, Department of Computer Science and Automation</p>
+                  <a href="https://www.csa.iisc.ac.in/" target="_blank" rel="noopener noreferrer" className="text-foreground hover:text-accent transition-colors font-medium">Room No. 302, Department of Computer Science and Automation</a>
                 </div>
               </div>
 
@@ -59,16 +59,13 @@ export const Contact = () => {
                   <MapPin className="w-5 h-5 text-accent" />
                 </div>
                 <div>
-                  <p className="text-sm text-muted-foreground mb-1">​​​​​​​Address    </p>
-                  <p className="text-foreground font-medium">​Department of Computer Science and Automation,
-Indian Institute of Science Bangalore, 560012,
-India
-      
-      
-                  <br />
-                    ​<br />
-                    ​
-                  </p>
+                  <p className="text-sm text-muted-foreground mb-1">Address</p>
+                  <a href="https://www.google.com/maps/place/Department+of+Computer+Science+and+Automation,+INDIAN+INSTITUTE+OF+SCIENCE,+Mirinji+Marg,+Mathikere,+Bengaluru,+Karnataka+560012/@13.0152873,77.5676122,17z/data=!3m1!4b1!4m6!3m5!1s0x3bae17d3b2dc2907:0xaab253c84e839ecd!8m2!3d13.0152821!4d77.5701871!16s%2Fg%2F11gzytlsq?entry=ttu&g_ep=EgoyMDI2MDIwNC4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer" className="text-foreground hover:text-accent transition-colors font-medium block">
+                    Department of Computer Science and Automation,<br />
+                    Indian Institute of Science,<br />
+                    Mirinji Marg, Mathikere,<br />
+                    Bengaluru, Karnataka 560012, India
+                  </a>
                 </div>
               </div>
             </div>

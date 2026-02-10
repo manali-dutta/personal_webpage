@@ -3,8 +3,8 @@ import { Brain, MessageSquare, Code, Lightbulb } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 const researchAreas = [{
   icon: Brain,
-  title: "Machine Learning",
-  description: "Developing novel deep learning architectures for improved model interpretability and performance."
+  title: "Reinforcement Learning",
+  description: "Designing learning based decision making algorithms that adapt through interaction with uncertain environments."
 }, {
   icon: MessageSquare,
   title: "Natural Language Processing",
@@ -36,8 +36,7 @@ export const Research = () => {
             Research Interests
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            My research sits at the intersection of machine learning and human-computer interaction,
-            with a focus on making AI systems more understandable and useful.
+            My research lies at the intersection of stochastic control and reinforcement learning, with a focus on decision making under uncertainty in networked control systems.
           </p>
         </motion.div>
 
