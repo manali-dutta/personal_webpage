@@ -12,7 +12,7 @@ const researchAreas = [{
 }, {
   icon: Code,
   title: "Networked Control Systems",
-  description: "Building transparent AI systems that can explain their reasoning and decision-making processes."
+  description: "Studying control and estimation problems in systems connected over unreliable and resource constrained networks."
 }, {
   icon: Lightbulb,
   title: "Human-AI Interaction",
