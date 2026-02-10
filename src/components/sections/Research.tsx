@@ -7,7 +7,7 @@ const researchAreas = [{
   description: "Designing learning based decision making algorithms that adapt through interaction with uncertain environments."
 }, {
   icon: Settings,
-  title: "Natural Language Processing",
+  title: "Stochastic Control",
   description: "Creating systems that understand context, nuance, and semantic meaning in human language."
 }, {
   icon: Code,
