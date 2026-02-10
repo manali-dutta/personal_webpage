@@ -15,7 +15,7 @@ const researchAreas = [{
   description: "Studying control and estimation problems in systems connected over unreliable and resource constrained networks."
 }, {
   icon: Shuffle,
-  title: "Marov Decision Processes",
+  title: "Markov Decision Processes",
   description: "Developing and analyzing Markov decision process models for decision making under uncertainty."
 }];
 export const Research = () => {
