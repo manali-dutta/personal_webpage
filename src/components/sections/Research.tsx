@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Brain, Settings, Code, Lightbulb } from "lucide-react";
+import { Brain, Settings, Network, Lightbulb } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 const researchAreas = [{
   icon: Brain,
