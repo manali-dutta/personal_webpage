@@ -11,7 +11,7 @@ const researchAreas = [{
   description: "Developing optimal control strategies for systems operating under significant uncertainty and random dynamics."
 }, {
   icon: Code,
-  title: "Explainable AI",
+  title: "Networked Control Systems",
   description: "Building transparent AI systems that can explain their reasoning and decision-making processes."
 }, {
   icon: Lightbulb,
